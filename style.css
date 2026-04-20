@@ -1,0 +1,41 @@
+#cronograma table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  margin-top: 20px;
+}
+
+#cronograma th {
+  background: #fff3b0; /* amarelo pastel */
+  padding: 12px;
+  text-align: left;
+  border-radius: 8px;
+}
+
+#cronograma td {
+  background: #fffafc;
+  padding: 15px;
+  vertical-align: top;
+}
+
+/* coluna do mês */
+#cronograma tr td:first-child {
+  font-weight: bold;
+  color: #d63384; /* laranja pastel */
+  width: 140px;
+  border-radius: 8px 0 0 8px;
+}
+
+/* coluna da descrição */
+#cronograma tr td:last-child {
+  border-radius: 0 8px 8px 0;
+}
+
+/* sombra leve */
+#cronograma tr {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+#cronograma tr:hover td {
+  background: #ffa9749a;
+}
