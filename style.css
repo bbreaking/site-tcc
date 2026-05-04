@@ -21,7 +21,7 @@
 /* coluna do mês */
 #cronograma tr td:first-child {
   font-weight: bold;
-  color: #d63384; /* laranja pastel */
+  color: #d63384;
   width: 140px;
   border-radius: 8px 0 0 8px;
 }
@@ -37,5 +37,20 @@
 }
 
 #cronograma tr:hover td {
-  background: #ffa9749a;
+  background: #ffc29c9a;
+}
+
+#cronograma tr.checkpoint td {
+  background: #ffc7e3;
+  font-weight: bold;
+  text-align: center;
+  border: 2px dashed #ff914d;
+  border-radius: 8px;
+  color: #542a00;
+  letter-spacing: 0.3px;
+}
+
+/* remove o estilo padrão dessas linhas */
+#cronograma tr.checkpoint {
+  box-shadow: none;
 }
